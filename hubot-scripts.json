@@ -1,1 +1,17 @@
-["redis-brain.coffee", "tweet.coffee", "shipit.coffee"]
+[
+  "redis-brain.coffee",
+  "tweet.coffee",
+  "shipit.coffee",
+  "google.coffee",
+  "news.coffee",
+  "weather.coffee",
+  "achievement_unlocked.coffee",
+  "faceup.coffee",
+  "isup.coffee",
+  "meme_generator.coffee",
+  "mitch-hedburg.coffee",
+  "penny-arcade.coffee",
+  "rotten.coffee",
+  "swanson.coffee",
+  "wolfram.coffee"
+]
