@@ -8,10 +8,10 @@
   "achievement_unlocked.coffee",
   "faceup.coffee",
   "isup.coffee",
-  "meme_generator.coffee",
   "mitch-hedburg.coffee",
   "penny-arcade.coffee",
   "rotten.coffee",
   "swanson.coffee",
-  "wolfram.coffee"
+  "wolfram.coffee",
+  "meme_generator.coffee"
 ]
