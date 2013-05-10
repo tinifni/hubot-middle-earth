@@ -1,10 +1,25 @@
-# @hubot bukkit me
+# Description:
+#   Return a random image from bukk.it
+#
+# Dependencies:
+#   htmlparser 1.7.6
+#   soupselect 0.2.0
+#
+# Configuration:
+#
+# Commands:
+#   hubot (bukkit)( me)
+#
+# Notes:
+#
+# Author:
+#   Adam Anderson
 
 Select     = require("soupselect").select
 HtmlParser = require "htmlparser"
 
 module.exports = (robot) ->
-  robot.respond /bukkit me$/i, (msg) ->
+  robot.respond /(bukkit)( me)?$/i, (msg) ->
     msg.http("http://bukk.it")
       .get() (err, res, body) ->
         handler = new HtmlParser.DefaultHandler()
