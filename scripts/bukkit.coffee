@@ -8,7 +8,7 @@
 # Configuration:
 #
 # Commands:
-#   hubot (bukkit)( me)
+#   hubot bukkit me - returns a random image from http://bukk.it
 #
 # Notes:
 #
