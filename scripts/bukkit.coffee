@@ -13,7 +13,8 @@
 # Notes:
 #
 # Author:
-#   Adam Anderson
+#   Adam Anderson (scudco)
+#   Taken from https://github.com/sauliusg/hubot/blob/master/scripts/bukkit.coffee
 
 Select     = require("soupselect").select
 HtmlParser = require "htmlparser"
